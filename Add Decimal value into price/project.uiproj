@@ -1,0 +1,6 @@
+{
+  "Name": "Add Decimal value into price",
+  "ProjectType": "Process",
+  "Description": "UiPath forum issue 5727932",
+  "MainFile": "Main.xaml"
+}
