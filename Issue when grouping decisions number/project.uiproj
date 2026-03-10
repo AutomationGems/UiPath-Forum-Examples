@@ -1,0 +1,6 @@
+{
+  "Name": "Issue when grouping decisions number",
+  "ProjectType": "Process",
+  "Description": "Example for UiPath Forum issue  5726263",
+  "MainFile": "Main.xaml"
+}
