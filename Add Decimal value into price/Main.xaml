@@ -97,7 +97,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1804,1590" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1804,1718" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtNumbers" />
       <Variable x:TypeArguments="x:Double" Name="dblNumber" />
@@ -107,6 +107,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
+    <ui:Comment sap:VirtualizedContainerService.HintSize="488,128" sap2010:WorkflowViewState.IdRef="Comment_1" Text="Possible solution for uipath forum issue: https://forum.uipath.com/t/add-decimal-value-into-price/5727932/5" />
     <ui:ReadRange AddHeaders="True" DataTable="[dtNumbers]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="488,227" sap2010:WorkflowViewState.IdRef="ReadRange_1" Range="[Nothing]" SheetName="Sheet1" WorkbookPathResource="[LocalResource.FromPath(&quot;Numbers.xlsx&quot;)]" />
     <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtNumbers]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="488,1340" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
       <ui:ForEachRow.Body>
