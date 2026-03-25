@@ -2,5 +2,5 @@
   "Name": "Html table creation",
   "ProjectType": "Process",
   "Description": "The answer example for forum post https://forum.uipath.com/t/html-table-creation/5726592",
-  "MainFile": "Main.xaml"
+  "MainFile": "MultupleHeader Solution.xaml"
 }

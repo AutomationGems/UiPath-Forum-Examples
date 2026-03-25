@@ -41,9 +41,9 @@
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.codedworkflows\\24.10.1\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.excel.activities\\3.4.1\\lib/net6.0-windows7.0/UiPath.Excel.Activities.API.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.excel.activities\\3.4.1\\lib/net6.0-windows7.0/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.excel.activities\\3.4.1\\lib/net6.0-windows7.0/UiPath.Excel.Activities.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.excel.activities\\3.4.1\\lib/net6.0-windows7.0/UiPath.Excel.Activities.Package.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.excel.activities\\3.4.1\\lib/net6.0-windows7.0/UiPath.Excel.Activities.ViewModels.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.excel.activities\\3.4.1\\lib/net6.0-windows7.0/UiPath.Excel.Activities.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.excel.activities\\3.4.1\\lib/net6.0-windows7.0/UiPath.Excel.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/Microsoft.Office.Interop.Excel.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/Microsoft.Office.Interop.Outlook.dll",
@@ -67,8 +67,8 @@
         "C:\\Users\\lbidstrup\\.nuget\\packages\\azure.core\\1.18.0\\lib/net5.0/Azure.Core.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\lib/net6.0/BouncyCastle.Cryptography.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\google.apis\\1.55.0\\lib/netstandard2.0/Google.Apis.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/netstandard2.0/Google.Apis.Auth.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/netstandard2.0/Google.Apis.Auth.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\google.apis.calendar.v3\\1.55.0.2554\\lib/netstandard2.0/Google.Apis.Calendar.v3.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\google.apis.core\\1.55.0\\lib/netstandard2.0/Google.Apis.Core.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\google.apis.gmail.v1\\1.55.0.2510\\lib/netstandard2.0/Google.Apis.Gmail.v1.dll",
@@ -213,8 +213,8 @@
         "C:\\Users\\lbidstrup\\.nuget\\packages\\system.servicemodel.duplex\\4.9.0\\lib/net6.0/System.ServiceModel.Duplex.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\system.servicemodel.http\\4.9.0\\lib/net6.0/System.ServiceModel.Http.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\system.servicemodel.nettcp\\4.9.0\\lib/net6.0/System.ServiceModel.NetTcp.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0\\lib/net6.0/System.ServiceModel.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0\\lib/net6.0/System.ServiceModel.Primitives.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0\\lib/net6.0/System.ServiceModel.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\system.servicemodel.security\\4.9.0\\lib/net6.0/System.ServiceModel.Security.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\system.servicemodel.syndication\\6.0.0\\lib/net6.0/System.ServiceModel.Syndication.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\system.serviceprocess.servicecontroller\\6.0.1\\runtimes/win/lib/net6.0/System.ServiceProcess.ServiceController.dll",
@@ -276,8 +276,8 @@
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.testing.activities\\25.10.1\\lib/net6.0-windows7.0/UiPath.Testing.Activities.Api.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.testing.activities\\25.10.1\\lib/net6.0-windows7.0/UiPath.Testing.Activities.Design.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.testing.activities\\25.10.1\\lib/net6.0-windows7.0/UiPath.Testing.Activities.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.testing.activities\\25.10.1\\lib/net6.0-windows7.0/UiPath.Testing.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.testing.activities\\25.10.1\\lib/net6.0-windows7.0/UiPath.Testing.RulesLibrary.dll"
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.testing.activities\\25.10.1\\lib/net6.0-windows7.0/UiPath.Testing.RulesLibrary.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.testing.activities\\25.10.1\\lib/net6.0-windows7.0/UiPath.Testing.dll"
       ],
       "Path": "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.testing.activities\\25.10.1"
     },
@@ -315,9 +315,9 @@
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.7\\lib/net6.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.appsignatures\\25.10.168.53295\\lib/net6.0-windows7.0/AppSignatures.Locator.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.codedworkflows\\24.10.1\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib/net6.0/Emgu.CV.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib/net6.0/concrt140.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib/net6.0/cvextern.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib/net6.0/Emgu.CV.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib/net6.0/libusb-1.0.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib/net6.0/msvcp140.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib/net6.0/msvcp140_1.dll",
@@ -341,21 +341,21 @@
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities\\25.10.26\\lib/net6.0-windows7.0/UiPath.Wizards.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib/net6.0-windows7.0/UiPath.CV.Activities.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib/net6.0-windows7.0/UiPath.CV.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib/net6.0-windows7.0/UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib/net6.0-windows7.0/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.API.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Contracts.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.API.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.ExternalIntegrations.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Migration.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib/net6.0-windows7.0/UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime.design\\25.10.26\\lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Runtime.Design.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.design.recoverypanel\\25.10.26\\lib/net6.0/UiPath.UIAutomation.Design.RecoveryPanel.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.vision\\3.16.0\\lib/net6.0-windows7.0/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.vision\\3.16.0\\lib/net6.0-windows7.0/UiPath.Vision.Core.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.vision\\3.16.0\\lib/net6.0-windows7.0/UiPath.Vision.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.vision\\3.16.0\\lib/net6.0-windows7.0/UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.vision\\3.16.0\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.vision\\3.16.0\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.vision\\3.16.0\\lib/net6.0-windows7.0/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities\\25.10.26"
     }
@@ -5635,8 +5635,8 @@
         "Version": "1.55.0"
       },
       "Assemblies": [
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib\\netstandard2.0\\Google.Apis.Auth.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib\\netstandard2.0\\Google.Apis.Auth.PlatformServices.dll"
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib\\netstandard2.0\\Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib\\netstandard2.0\\Google.Apis.Auth.dll"
       ],
       "Path": "C:\\Users\\lbidstrup\\.nuget\\packages\\google.apis.auth\\1.55.0"
     },
@@ -7244,8 +7244,8 @@
         "Version": "6.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\runtimes\\win\\lib\\net6.0\\System.Diagnostics.EventLog.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\runtimes\\win\\lib\\net6.0\\System.Diagnostics.EventLog.Messages.dll"
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\runtimes\\win\\lib\\net6.0\\System.Diagnostics.EventLog.Messages.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\runtimes\\win\\lib\\net6.0\\System.Diagnostics.EventLog.dll"
       ],
       "Path": "C:\\Users\\lbidstrup\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0"
     },
@@ -7991,8 +7991,8 @@
         "Version": "4.9.0"
       },
       "Assemblies": [
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0\\lib\\net6.0\\System.ServiceModel.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0\\lib\\net6.0\\System.ServiceModel.Primitives.dll"
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0\\lib\\net6.0\\System.ServiceModel.Primitives.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0\\lib\\net6.0\\System.ServiceModel.dll"
       ],
       "Path": "C:\\Users\\lbidstrup\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0"
     },
@@ -8309,9 +8309,9 @@
         "Version": "1.4.0"
       },
       "Assemblies": [
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib\\net6.0\\Emgu.CV.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib\\net6.0\\concrt140.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib\\net6.0\\cvextern.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib\\net6.0\\Emgu.CV.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib\\net6.0\\libusb-1.0.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib\\net6.0\\msvcp140.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib\\net6.0\\msvcp140_1.dll",
@@ -8331,9 +8331,9 @@
       "Assemblies": [
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.excel.activities\\3.4.1\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.API.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.excel.activities\\3.4.1\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.excel.activities\\3.4.1\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.excel.activities\\3.4.1\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.Package.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.excel.activities\\3.4.1\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.ViewModels.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.excel.activities\\3.4.1\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.excel.activities\\3.4.1\\lib\\net6.0-windows7.0\\UiPath.Excel.dll"
       ],
       "Path": "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.excel.activities\\3.4.1"
@@ -8485,8 +8485,8 @@
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.testing.activities\\25.10.1\\lib\\net6.0-windows7.0\\UiPath.Testing.Activities.Api.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.testing.activities\\25.10.1\\lib\\net6.0-windows7.0\\UiPath.Testing.Activities.Design.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.testing.activities\\25.10.1\\lib\\net6.0-windows7.0\\UiPath.Testing.Activities.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.testing.activities\\25.10.1\\lib\\net6.0-windows7.0\\UiPath.Testing.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.testing.activities\\25.10.1\\lib\\net6.0-windows7.0\\UiPath.Testing.RulesLibrary.dll"
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.testing.activities\\25.10.1\\lib\\net6.0-windows7.0\\UiPath.Testing.RulesLibrary.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.testing.activities\\25.10.1\\lib\\net6.0-windows7.0\\UiPath.Testing.dll"
       ],
       "Path": "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.testing.activities\\25.10.1"
     },
@@ -8512,14 +8512,14 @@
       "Assemblies": [
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib\\net6.0-windows7.0\\UiPath.CV.Activities.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib\\net6.0-windows7.0\\UiPath.CV.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib\\net6.0-windows7.0\\UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib\\net6.0-windows7.0\\UiPath.UIAutomationCore.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.API.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Contracts.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.API.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.ExternalIntegrations.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Migration.dll"
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Migration.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26\\lib\\net6.0-windows7.0\\UiPath.UiAutomation.Activities.dll"
       ],
       "Path": "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.26"
     },
@@ -8551,9 +8551,9 @@
       "Assemblies": [
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.vision\\3.16.0\\lib\\net6.0-windows7.0\\UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.vision\\3.16.0\\lib\\net6.0-windows7.0\\UiPath.Vision.Core.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.vision\\3.16.0\\lib\\net6.0-windows7.0\\UiPath.Vision.dll",
         "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.vision\\3.16.0\\lib\\net6.0-windows7.0\\UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.vision\\3.16.0\\lib\\net6.0-windows7.0\\UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.vision\\3.16.0\\lib\\net6.0-windows7.0\\UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.vision\\3.16.0\\lib\\net6.0-windows7.0\\UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\lbidstrup\\.nuget\\packages\\uipath.vision\\3.16.0"
     }

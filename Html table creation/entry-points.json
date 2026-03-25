@@ -2,8 +2,8 @@
   "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "9284732f-f0c0-44ee-aeec-6c7bdfd2a1e1",
+      "filePath": "MultupleHeader Solution.xaml",
+      "uniqueId": "016a3d81-b8a8-41b5-b95d-cd4558d56dcb",
       "type": "process"
     }
   ]

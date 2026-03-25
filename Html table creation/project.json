@@ -2,7 +2,7 @@
   "name": "Html table creation",
   "projectId": "7a501d8d-72c0-450e-8606-1c8d2343e60e",
   "description": "The answer example for forum post https://forum.uipath.com/t/html-table-creation/5726592",
-  "main": "Main.xaml",
+  "main": "MultupleHeader Solution.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[3.4.1]",
     "UiPath.Mail.Activities": "[2.7.10]",
@@ -48,8 +48,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "9284732f-f0c0-44ee-aeec-6c7bdfd2a1e1",
+      "filePath": "MultupleHeader Solution.xaml",
+      "uniqueId": "016a3d81-b8a8-41b5-b95d-cd4558d56dcb",
       "input": [],
       "output": []
     }

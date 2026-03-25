@@ -1,7 +1,7 @@
 {
   "Workflows": [
     {
-      "Path": "Main.xaml",
+      "Path": "MultupleHeader Solution.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": null,
       "ArgumentsSectionElementsOrder": null,
@@ -36,6 +36,14 @@
       "Path": "ConvertDataTableToHtmlTable.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SingleHeader Solution.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
       "ArgumentsSectionElementsOrder": null,
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null

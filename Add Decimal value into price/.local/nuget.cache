@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oGqtRiiAsOk=",
+  "dgSpecHash": "XFsHnPEJY7w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lbidstrup\\OneDrive - Sopra Steria\\Documents\\UiPath\\Add Decimal value into price\\.local\\",
+  "projectFilePath": "C:\\Users\\lbidstrup\\OneDrive - Sopra Steria\\Desktop\\Private\\Automation Gems\\UiPath Projects\\UiPath-Forum-Examples\\Add Decimal value into price\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\lbidstrup\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\lbidstrup\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",

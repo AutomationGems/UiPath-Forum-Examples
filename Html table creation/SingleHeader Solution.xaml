@@ -34,9 +34,6 @@
       <x:String>System.Linq.Expressions</x:String>
       <x:String>UiPath.Platform</x:String>
       <x:String>System.Reflection</x:String>
-      <x:String>UiPath.DataTableUtilities</x:String>
-      <x:String>System.Numerics</x:String>
-      <x:String>System.Globalization</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -74,8 +71,8 @@
       <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
       <AssemblyReference>System.Private.Xml</AssemblyReference>
-      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>UiPath.Platform</AssemblyReference>
       <AssemblyReference>System.Memory.Data</AssemblyReference>
@@ -86,92 +83,40 @@
       <AssemblyReference>System.Private.Uri</AssemblyReference>
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
       <AssemblyReference>UiPath.CodedWorkflows</AssemblyReference>
-      <AssemblyReference>NPOI.Core</AssemblyReference>
       <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
       <AssemblyReference>System.Collections</AssemblyReference>
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
       <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
       <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
-      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="3201,1543" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="3207,1369.6566666666668" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="sd:DataTable" Name="dtNumbers" />
-      <Variable x:TypeArguments="x:Double" Name="dblNumber" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dtRawData" />
+      <Variable x:TypeArguments="scg:List(x:String)" Name="listUniqueRequestors" />
+      <Variable x:TypeArguments="x:String" Default="[String.Empty]" Name="strFullRquestorHtml" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:Comment sap:VirtualizedContainerService.HintSize="488,128" sap2010:WorkflowViewState.IdRef="Comment_1" Text="Possible solution for uipath forum issue: https://forum.uipath.com/t/add-decimal-value-into-price/5727932/5" />
-    <ui:ReadRange AddHeaders="True" DataTable="[dtNumbers]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="488,227" sap2010:WorkflowViewState.IdRef="ReadRange_1" Range="[Nothing]" SheetName="Sheet1" WorkbookPathResource="[LocalResource.FromPath(&quot;Numbers.xlsx&quot;)]" />
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtNumbers]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="488,1165" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
-      <ui:ForEachRow.Body>
-        <ActivityAction x:TypeArguments="sd:DataRow">
-          <ActivityAction.Argument>
-            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
-          </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="486,992" sap2010:WorkflowViewState.IdRef="Sequence_2">
-            <Sequence.Variables>
-              <Variable x:TypeArguments="x:String" Name="strNumber" />
-            </Sequence.Variables>
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <Assign sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_1">
-              <Assign.To>
-                <OutArgument x:TypeArguments="x:String">[strNumber]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="x:String">[CurrentRow("Number").ToString]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <If Condition="[strNumber.Contains(&quot;,&quot;) AndAlso (strNumber.IndexOf(&quot;,&quot;) &lt; strNumber.IndexOf(&quot;.&quot;))]" DisplayName="If - Does number have ',' and is the comma before the a '.'" sap:VirtualizedContainerService.HintSize="452,591" sap2010:WorkflowViewState.IdRef="If_1">
-              <If.Then>
-                <Sequence DisplayName="Then - Format is US (#,###.00)" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_3">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <Assign sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="Assign_2">
-                    <Assign.To>
-                      <OutArgument x:TypeArguments="x:Double">[dblNumber]</OutArgument>
-                    </Assign.To>
-                    <Assign.Value>
-                      <InArgument x:TypeArguments="x:Double">[CDbl(strNumber)]</InArgument>
-                    </Assign.Value>
-                  </Assign>
-                </Sequence>
-              </If.Then>
-              <If.Else>
-                <Sequence DisplayName="Else - Format is not US (#.###,00)" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_4">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <Assign sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="Assign_3">
-                    <Assign.To>
-                      <OutArgument x:TypeArguments="x:Double">[dblNumber]</OutArgument>
-                    </Assign.To>
-                    <Assign.Value>
-                      <InArgument x:TypeArguments="x:Double">[Double.Parse(strNumber,System.Globalization.CultureInfo.GetCultureInfo("da-DK"))]</InArgument>
-                    </Assign.Value>
-                  </Assign>
-                </Sequence>
-              </If.Else>
-            </If>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,166" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[dblNumber.ToString(&quot;N2&quot;,System.Globalization.CultureInfo.GetCultureInfo(&quot;da-DK&quot;))]" />
-          </Sequence>
-        </ActivityAction>
-      </ui:ForEachRow.Body>
-    </ui:ForEachRow>
+    <ui:ReadRange AddHeaders="True" DataTable="[dtRawData]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="450,227" sap2010:WorkflowViewState.IdRef="ReadRange_1" Range="[Nothing]" SheetName="Sheet1" WorkbookPathResource="[LocalResource.FromPath(&quot;Testing List for BOT  23.02.2026.xlsx&quot;)]" />
+    <ui:SortDataTable ColumnIndex="{x:Null}" DataColumn="{x:Null}" ColumnName="Requestors" DataTable="[dtRawData]" DisplayName="Sort Data Table" sap:VirtualizedContainerService.HintSize="450,113" sap2010:WorkflowViewState.IdRef="SortDataTable_1" OutputDataTable="[dtRawData]" SortOrder="Ascending" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ConvertDataTableToHtmlTable - Invoke Workflow File (ConvertDataTableToHtmlTable.xaml)" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="ConvertDataTableToHtmlTable.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_StrHtmlTable">[strFullRquestorHtml]</OutArgument>
+        <InArgument x:TypeArguments="sd:DataTable" x:Key="in_DtInput">[dtRawData]</InArgument>
+        <InArgument x:TypeArguments="x:Boolean" x:Key="in_BoolUseColumnNamesAsHeaders">True</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:WriteTextFile FileName="{x:Null}" Output="{x:Null}" DisplayName="Write Text File" File="[LocalResource.FromPath(&quot;Output_SingleHeader.html&quot;)]" sap:VirtualizedContainerService.HintSize="450,167" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[strFullRquestorHtml]" />
   </Sequence>
 </Activity>

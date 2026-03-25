@@ -97,30 +97,19 @@
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1870,1764" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="3207,1369.6566666666668" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtRawData" />
       <Variable x:TypeArguments="scg:List(x:String)" Name="listUniqueRequestors" />
-      <Variable x:TypeArguments="x:String" Name="strFullRquestorHtml">
-        <Variable.Default>
-          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="String.Empty" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:String" Default="[String.Empty]" Name="strFullRquestorHtml" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Get List of Unique " sap:VirtualizedContainerService.HintSize="488,122" sap2010:WorkflowViewState.IdRef="Sequence_5">
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-    </Sequence>
-    <ui:ReadRange AddHeaders="True" DataTable="[dtRawData]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="488,227" sap2010:WorkflowViewState.IdRef="ReadRange_1" Range="[Nothing]" SheetName="Sheet1" WorkbookPathResource="[LocalResource.FromPath(&quot;Testing List for BOT  23.02.2026.xlsx&quot;)]" />
-    <Assign DisplayName="Assign - listUniqueRequestors" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <ui:ReadRange AddHeaders="True" DataTable="[dtRawData]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="450,227" sap2010:WorkflowViewState.IdRef="ReadRange_1" Range="[Nothing]" SheetName="Sheet1" WorkbookPathResource="[LocalResource.FromPath(&quot;Testing List for BOT  23.02.2026.xlsx&quot;)]" />
+    <Assign DisplayName="Assign - listUniqueRequestors" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="scg:List(x:String)">[listUniqueRequestors]</OutArgument>
       </Assign.To>
@@ -128,7 +117,7 @@
         <InArgument x:TypeArguments="scg:List(x:String)">[dtRawData.AsEnumerable.Select(Function(x) x("Requestors").ToString).Distinct.ToList]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentRequestor" sap:VirtualizedContainerService.HintSize="488,1050" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[listUniqueRequestors]">
+    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentRequestor" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[listUniqueRequestors]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="x:String">
           <ActivityAction.Argument>
@@ -195,7 +184,13 @@
           </Sequence>
         </ActivityAction>
       </ui:ForEach.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </ui:ForEach>
-    <ui:WriteTextFile FileName="{x:Null}" Output="{x:Null}" DisplayName="Write Text File" File="[LocalResource.FromPath(&quot;Output.html&quot;)]" sap:VirtualizedContainerService.HintSize="488,167" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[strFullRquestorHtml]" />
+    <ui:WriteTextFile FileName="{x:Null}" Output="{x:Null}" DisplayName="Write Text File" File="[LocalResource.FromPath(&quot;Output.html&quot;)]" sap:VirtualizedContainerService.HintSize="450,167" sap2010:WorkflowViewState.IdRef="WriteTextFile_2" Text="[strFullRquestorHtml]" />
   </Sequence>
 </Activity>
