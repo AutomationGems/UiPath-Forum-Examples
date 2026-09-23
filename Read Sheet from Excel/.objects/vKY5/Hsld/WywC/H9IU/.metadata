@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Transskriberer…",
+  "Type": "Element",
+  "Id": "H9IUSTtU80yV52AQMYeB5g",
+  "Reference": "g2Ke-CPap0yP57YhNX2qlA/H9IUSTtU80yV52AQMYeB5g",
+  "ParentRef": "g2Ke-CPap0yP57YhNX2qlA/WywCy-5Bq0aGUpN_GKbrRw",
+  "Created": "2026-09-05T16:40:43.0838645Z",
+  "Updated": "2026-09-05T16:40:43.0838645Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

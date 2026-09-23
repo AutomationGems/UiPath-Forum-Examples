@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome in uipath click is 'Click before typing' supported by Simulate - Google-søgning",
+  "Type": "App",
+  "Id": "vKY5-KZlBkWwJx0Vf6qCRw",
+  "Reference": "g2Ke-CPap0yP57YhNX2qlA/vKY5-KZlBkWwJx0Vf6qCRw",
+  "Created": "2026-09-05T16:40:31.9251519Z",
+  "Updated": "2026-09-05T16:40:31.9251519Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

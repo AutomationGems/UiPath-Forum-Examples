@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome in uipath click is 'Click before typin",
+  "Type": "Screen",
+  "Id": "WywCy-5Bq0aGUpN_GKbrRw",
+  "Reference": "g2Ke-CPap0yP57YhNX2qlA/WywCy-5Bq0aGUpN_GKbrRw",
+  "ParentRef": "g2Ke-CPap0yP57YhNX2qlA/HsldLzZRDkKAUEU1icSghg",
+  "Created": "2026-09-05T16:40:32.0804908Z",
+  "Updated": "2026-09-05T16:40:32.0804908Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
